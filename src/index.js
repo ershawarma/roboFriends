@@ -5,6 +5,5 @@ import App from './containers/App';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 
-ReactDOM.render( <App />
-, document.getElementById('root'));
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 reportWebVitals();
